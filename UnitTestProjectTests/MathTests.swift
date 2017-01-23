@@ -30,6 +30,7 @@ class MathTests: XCTestCase {
         let result = math.addAndMultiply(num1, num2, num3)
         
         XCTAssert(result == expected)
+        
     }
     
 

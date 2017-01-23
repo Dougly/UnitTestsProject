@@ -6,4 +6,24 @@
 //  Copyright © 2017 Dougly. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Action {
+    
+    var view1 = UIView()
+    var view2 = UIView()
+    
+    func changeTag(of view: UIView, to tag: Int) {
+        view.tag = tag
+    }
+    
+    //test will fail
+    func createString(with numbers: [Int]) -> String {
+        var string = ""
+        for num in numbers {
+            string.append("\(num) ")
+        }
+        return string
+    }
+    
+}
